@@ -1,2 +1,2 @@
 # rn-components-kit
-A group of commonly used react-native components
+A series of commonly used react-native components.

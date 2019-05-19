@@ -1,0 +1,13 @@
+{
+  "name": "@rn-components-kit/text",
+  "version": "1.0.0",
+  "description": "Text component",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:SmallStoneSK/rn-components-kit.git"
+  },
+  "author": "SmallStoneSK",
+  "license": "MIT"
+}
