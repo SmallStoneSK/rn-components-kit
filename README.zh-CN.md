@@ -1,11 +1,11 @@
 # rn-components-kit
 
-English | [中文](./README.zh-CN.md)
+[English](./README.md) | 中文
 
-A series of commonly used react-native components.
+常用React Native组件库。
 
-## Components
+## 组件库
 
-|component|version|
+|组件|版本|
 |---------|-------|
 |@rn-components-kit/text|[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/text.svg)](https://www.npmjs.com/package/@rn-components-kit/text)|

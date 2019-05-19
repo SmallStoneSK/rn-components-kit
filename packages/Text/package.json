@@ -8,6 +8,13 @@
     "type": "git",
     "url": "git@github.com:SmallStoneSK/rn-components-kit.git"
   },
+  "keywords": [
+    "react-native",
+    "reactnative",
+    "reactjs",
+    "UI kit",
+    "text"
+  ],
   "author": "SmallStoneSK",
   "license": "MIT"
 }

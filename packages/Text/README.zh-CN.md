@@ -1,5 +1,6 @@
 # Text
----
+
+[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/text.svg)](https://www.npmjs.com/package/@rn-components-kit/text)
 
 [English](./README.md) | 中文
 

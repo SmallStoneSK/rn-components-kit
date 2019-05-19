@@ -20,5 +20,13 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "keywords": [
+    "react-native",
+    "reactnative",
+    "reactjs",
+    "UI kit"
+  ],
+  "author": "SmallStoneSK",
+  "license": "MIT"
 }
