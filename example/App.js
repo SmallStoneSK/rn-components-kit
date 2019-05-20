@@ -13,6 +13,7 @@ import {Header} from './Components/Header';
 import {DemoModal} from './Components/DemoModal';
 import {DividerDemo1, DividerDemo2} from '../packages/Divider/demos/index';
 import {IconDemo1, IconDemo2, IconDemo3} from '../packages/Icon/demos/index';
+import {TagDemo1, TagDemo2, TagDemo3} from '../packages/Tag/demos/index';
 
 const {width} = Dimensions.get('window');
 
@@ -31,6 +32,14 @@ const APP_DATA = [
       {title: 'Various Sizes', component: IconDemo1},
       {title: 'Various Types', component: IconDemo2},
       {title: 'Various Colors', component: IconDemo3},
+    ]
+  },
+  {
+    title: 'Tag',
+    demos: [
+      {title: 'Colorful Outline Tags', component: TagDemo1},
+      {title: 'Colorful Solid Tags', component: TagDemo2},
+      {title: 'Closable Tags', component: TagDemo3}
     ]
   }
 ];

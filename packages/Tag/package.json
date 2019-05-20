@@ -1,0 +1,24 @@
+{
+  "name": "@rn-components-kit/tag",
+  "version": "1.0.0",
+  "description": "Tag for categorizing or markup.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:SmallStoneSK/rn-components-kit.git"
+  },
+  "keywords": [
+    "react-native",
+    "reactnative",
+    "reactjs",
+    "UI kit",
+    "tag"
+  ],
+  "author": "SmallStoneSK",
+  "license": "MIT",
+  "dependencies": {
+    "@rn-components-kit/icon": "^1.0.0",
+    "@rn-components-kit/text": "^1.0.0"
+  }
+}
