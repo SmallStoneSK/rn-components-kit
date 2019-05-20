@@ -1,9 +1,12 @@
 {
-  "name": "@rn-components-kit/text",
+  "name": "@rn-components-kit/divider",
   "version": "1.0.0",
-  "description": "Component for displaying text",
+  "description": "Dividers are visual separators of content.",
   "main": "index.js",
   "types": "index.d.ts",
+  "scripts": {
+    "publish": "npm publish --access=public"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:SmallStoneSK/rn-components-kit.git"
@@ -13,7 +16,7 @@
     "reactnative",
     "reactjs",
     "UI kit",
-    "text"
+    "divider"
   ],
   "author": "SmallStoneSK",
   "license": "MIT"
