@@ -12,6 +12,7 @@ import {
 import {Header} from './Components/Header';
 import {DemoModal} from './Components/DemoModal';
 import {DividerDemo1, DividerDemo2} from '../packages/Divider/demos/index';
+import {IconDemo1, IconDemo2, IconDemo3} from '../packages/Icon/demos/index';
 
 const {width} = Dimensions.get('window');
 
@@ -22,6 +23,14 @@ const APP_DATA = [
     demos: [
       {title: 'Horizontal Divider', component: DividerDemo1},
       {title: 'Vertical Divider', component: DividerDemo2}
+    ]
+  },
+  {
+    title: 'Icon',
+    demos: [
+      {title: 'Various Sizes', component: IconDemo1},
+      {title: 'Various Types', component: IconDemo2},
+      {title: 'Various Colors', component: IconDemo3},
     ]
   }
 ];

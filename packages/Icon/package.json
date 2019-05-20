@@ -1,7 +1,7 @@
 {
-  "name": "@rn-components-kit/divider",
+  "name": "@rn-components-kit/icon",
   "version": "1.0.0",
-  "description": "Dividers are visual separators of content.",
+  "description": "Semantic vector graphics.",
   "main": "index.js",
   "types": "index.d.ts",
   "repository": {
@@ -13,7 +13,7 @@
     "reactnative",
     "reactjs",
     "UI kit",
-    "divider"
+    "icon"
   ],
   "author": "SmallStoneSK",
   "license": "MIT"
