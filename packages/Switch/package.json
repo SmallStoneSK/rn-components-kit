@@ -1,0 +1,20 @@
+{
+  "name": "@rn-components-kit/switch",
+  "version": "1.0.0",
+  "description": "Switching selector.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:SmallStoneSK/rn-components-kit.git"
+  },
+  "keywords": [
+    "react-native",
+    "reactnative",
+    "reactjs",
+    "UI kit",
+    "switch"
+  ],
+  "author": "SmallStoneSK",
+  "license": "MIT"
+}

@@ -8,7 +8,8 @@
 
 |组件|版本|
 |---------|-------|
-|@rn-components-kit/text|[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/text.svg)](https://www.npmjs.com/package/@rn-components-kit/text)|
-|@rn-components-kit/divider|[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/divider.svg)](https://www.npmjs.com/package/@rn-components-kit/divider)|
-|@rn-components-kit/icon|[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/icon.svg)](https://www.npmjs.com/package/@rn-components-kit/icon)|
-|@rn-components-kit/tag|[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/tag.svg)](https://www.npmjs.com/package/@rn-components-kit/tag)|
+|[divider](https://github.com/SmallStoneSK/rn-components-kit/tree/master/packages/Divider/README.zh-CN.md)|[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/divider.svg)](https://www.npmjs.com/package/@rn-components-kit/divider)|
+|[icon](https://github.com/SmallStoneSK/rn-components-kit/tree/master/packages/Icon/README.zh-CN.md)|[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/icon.svg)](https://www.npmjs.com/package/@rn-components-kit/icon)|
+|[switch](https://github.com/SmallStoneSK/rn-components-kit/tree/master/packages/Switch/README.zh-CN.md)|[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/switch.svg)](https://www.npmjs.com/package/@rn-components-kit/switch)|
+|[tag](https://github.com/SmallStoneSK/rn-components-kit/tree/master/packages/Tag/README.zh-CN.md)|[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/tag.svg)](https://www.npmjs.com/package/@rn-components-kit/tag)|
+|[text](https://github.com/SmallStoneSK/rn-components-kit/blob/master/packages/Text/README.zh-CN.md)|[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/text.svg)](https://www.npmjs.com/package/@rn-components-kit/text)|

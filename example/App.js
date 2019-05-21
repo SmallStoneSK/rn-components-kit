@@ -11,9 +11,10 @@ import {
 
 import {Header} from './Components/Header';
 import {DemoModal} from './Components/DemoModal';
-import {DividerDemo1, DividerDemo2} from '../packages/Divider/demos/index';
-import {IconDemo1, IconDemo2, IconDemo3} from '../packages/Icon/demos/index';
-import {TagDemo1, TagDemo2, TagDemo3} from '../packages/Tag/demos/index';
+import * as TagDemos from '../packages/Tag/demos/index';
+import * as IconDemos from '../packages/Icon/demos/index';
+import * as SwitchDemos from '../packages/Switch/demos/index';
+import * as DividerDemos from '../packages/Divider/demos/index';
 
 const {width} = Dimensions.get('window');
 
@@ -22,26 +23,36 @@ const APP_DATA = [
   {
     title: 'Divider',
     demos: [
-      {title: 'Horizontal Divider', component: DividerDemo1},
-      {title: 'Vertical Divider', component: DividerDemo2}
+      {title: 'Horizontal Divider', component: DividerDemos.Demo1},
+      {title: 'Vertical Divider', component: DividerDemos.Demo2}
     ]
   },
   {
     title: 'Icon',
     demos: [
-      {title: 'Various Sizes', component: IconDemo1},
-      {title: 'Various Types', component: IconDemo2},
-      {title: 'Various Colors', component: IconDemo3},
+      {title: 'Various Sizes', component: IconDemos.Demo1},
+      {title: 'Various Types', component: IconDemos.Demo2},
+      {title: 'Various Colors', component: IconDemos.Demo3},
+    ]
+  },
+  {
+    title: 'Switch',
+    demos: [
+      {title: 'Various Sizes', component: SwitchDemos.Demo1},
+      {title: 'Various Colors', component: SwitchDemos.Demo2},
+      {title: 'Cupertino VS Material', component: SwitchDemos.Demo3},
+      {title: 'Enabled VS Disabled', component: SwitchDemos.Demo4},
+      {title: 'Value Change Callback', component: SwitchDemos.Demo5},
     ]
   },
   {
     title: 'Tag',
     demos: [
-      {title: 'Colorful Outline Tags', component: TagDemo1},
-      {title: 'Colorful Solid Tags', component: TagDemo2},
-      {title: 'Closable Tags', component: TagDemo3}
+      {title: 'Colorful Outline Tags', component: TagDemos.Demo1},
+      {title: 'Colorful Solid Tags', component: TagDemos.Demo2},
+      {title: 'Closable Tags', component: TagDemos.Demo3}
     ]
-  }
+  },
 ];
 
 export default class App extends Component {
