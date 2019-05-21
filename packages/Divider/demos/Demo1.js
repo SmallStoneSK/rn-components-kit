@@ -9,7 +9,6 @@ import {
 
 import {Divider} from '../index';
 
-// ['#FF4777', '#725E82', '#FFA400', '#5D513C', '#00BC12', '#CA6924', '#CB3A56']
 const DATA = [
   {
     avatarColor: '#FF4777',

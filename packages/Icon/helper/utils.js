@@ -6,7 +6,7 @@ var map = (arrayLike, fn) => {
     }
     return ret;
   }
-}
+};
 
 /**
  * 阿里巴巴图标矢量库上找的Ant Design官方图标库
@@ -37,9 +37,9 @@ function generatePreviewTable() {
   const makeCell = content => `<td align="center" style="width: 12.5%;height: 100px;vertical-align: center;">${content}</td>`;
   const makeTitle = title => `<p align="center" style="margin: 5px auto 0">${title}</p>`;
   const makeSVG = paths => (
-    `<svg style="width: 32px; height: 32px;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">` + 
+    '<svg style="width: 32px; height: 32px;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">' + 
       paths.map(path => `<path d="${path}"></path>`).join('') + 
-    `</svg>`
+    '</svg>'
   );
 
   let cnt = 0, rows = [], str = '';
