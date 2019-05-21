@@ -131,8 +131,12 @@ npm install @rn-components-kit/tag --save
 
 #### `onClose`
 
+```js
+(text: string) => void
+```
+
 标签关闭时触发的回调函数
 
 |类型|必填|默认值|
 |----|--------|-------|
-|(text: string) => void|否|() => {}|
+|function|否|() => {}|

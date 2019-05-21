@@ -131,8 +131,12 @@ Determines whether a tag can be closed
 
 #### `onClose`
 
+```js
+(text: string) => void
+```
+
 A callback will be triggered when the tag is closed
 
 |Type|Required|Default|
 |----|--------|-------|
-|(text: string) => void|no|() => {}|
+|function|no|() => {}|

@@ -25,7 +25,7 @@ declare module '@rn-components-kit/tag' {
      * Determines the tag's color
      * default: '#333'
      */
-    color?: 'string';
+    color?: string;
 
     /**
      * Determines the fontSize of tag's text

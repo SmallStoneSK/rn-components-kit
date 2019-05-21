@@ -34,6 +34,7 @@ export class Tag extends React.PureComponent {
       Object.assign({
         flexDirection: 'row',
         alignItems: 'center',
+        alignSelf: 'baseline',
         paddingHorizontal,
         paddingVertical,
         borderRadius,
