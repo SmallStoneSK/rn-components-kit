@@ -10,7 +10,7 @@ Semantic vector graphics. It supports the following features:
 - custom color
 - integrated in [Ant-Design Preset](https://ant.design/components/icon/)
 
-**NOTE: Make sure your project has integrated in ART module.**
+:warning: **NOTE: Make sure your project has integrated in ART module.**
 
 If you encounter the problem like **No component found for view with name "ARTXXX"**, that's because the `ART` module has not been integrated in your project. You should:
 

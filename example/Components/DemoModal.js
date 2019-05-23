@@ -1,8 +1,10 @@
 import React from 'react';
 
 import {
+  View,
   Modal,
-  FlatList
+  FlatList,
+  ScrollView
 } from 'react-native';
 
 import {Demo} from './Demo';
@@ -28,11 +30,15 @@ export class DemoModal extends React.PureComponent {
         onRequestClose={onClose}
       >
         <Header title={`${data.title} Component`} closable={true} onClose={onClose}/>
-        <FlatList
-          data={data.demos}
-          keyExtractor={(_, idx) => idx.toString()}
-          renderItem={this.renderItem}
-        />
+        <ScrollView>
+          <FlatList
+            data={data.demos}
+            scrollEnabled={false}
+            keyExtractor={(_, idx) => idx.toString()}
+            renderItem={this.renderItem}
+          />
+          <View style={{height: 100}}/>
+        </ScrollView>
       </Modal>
     );
   }

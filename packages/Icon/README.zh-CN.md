@@ -10,7 +10,7 @@
 - 自定义颜色
 - 内置集成[Ant-Design Preset](https://ant.design/components/icon/)
 
-**注意：确保你的项目已经集成了ART模块**
+:warning: **注意：确保你的项目已经集成了ART模块**
 
 如果你遇到诸如`No component found for view with name "ARTXXX"`之类的报错，那是因为你的项目还没有集成`ART`模块。你需要：
 

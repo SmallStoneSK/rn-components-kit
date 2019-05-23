@@ -1,0 +1,20 @@
+{
+  "name": "@rn-components-kit/carousel",
+  "version": "1.0.0",
+  "description": "A slideshow component for cycling through elements (image or text), just like a carousel.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:SmallStoneSK/rn-components-kit.git"
+  },
+  "keywords": [
+    "react-native",
+    "reactnative",
+    "reactjs",
+    "UI kit",
+    "carousel"
+  ],
+  "author": "SmallStoneSK",
+  "license": "MIT"
+}

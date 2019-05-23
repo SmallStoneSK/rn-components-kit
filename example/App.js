@@ -15,11 +15,24 @@ import * as TagDemos from '../packages/Tag/demos/index';
 import * as IconDemos from '../packages/Icon/demos/index';
 import * as SwitchDemos from '../packages/Switch/demos/index';
 import * as DividerDemos from '../packages/Divider/demos/index';
+import * as CarouselDemos from '../packages/Carousel/demos/index';
 
 const {width} = Dimensions.get('window');
 
 const COLORS = ['#FF4777', '#725E82', '#FFA400', '#5D513C', '#00BC12', '#CA6924', '#CB3A56'];
 const APP_DATA = [
+  {
+    title: 'Carousel',
+    demos: [
+      {title: 'Default Carousel', component: CarouselDemos.Demo1},
+      {title: 'Looped Carousel', component: CarouselDemos.Demo2},
+      {title: 'Vertical Carousel', component: CarouselDemos.Demo3},
+      {title: 'Item Size Smaller Than Container', component: CarouselDemos.Demo4},
+      {title: 'Center Mode Enablbed', component: CarouselDemos.Demo5},
+      {title: 'Auto Play Enabled', component: CarouselDemos.Demo6},
+      {title: 'Custom Pagination Style', component: CarouselDemos.Demo7},
+    ]
+  },
   {
     title: 'Divider',
     demos: [

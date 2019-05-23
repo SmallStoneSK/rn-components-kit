@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
-    "lint": "eslint --fix ./packages"
+    "lint": "eslint --fix ./packages",
+    "clean": "rm -rf node_modules && npm install"
   },
   "husky": {
     "hooks": {
