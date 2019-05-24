@@ -241,11 +241,11 @@ export class Carousel extends React.PureComponent {
 
   render() {
     const {children} = this.state;
-    const {style, height, vertical, loop, centerModeEnabled, draggable, ...rest} = this.props;
+    const {style, width, height, vertical, loop, centerModeEnabled, draggable, ...rest} = this.props;
     const snapToAlignment = (centerModeEnabled && loop) ? 'center' : 'start';
     return (
       <View>
-        <View style={[style, vertical && {height}]} onLayout={this.onLayout}>
+        <View style={[style, width && {width}, height && {height}]} onLayout={this.onLayout}>
           <ScrollView
             {...rest}
             ref={_ => this.svRef = _}

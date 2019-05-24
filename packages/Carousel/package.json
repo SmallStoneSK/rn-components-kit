@@ -1,6 +1,6 @@
 {
   "name": "@rn-components-kit/carousel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A slideshow component for cycling through elements (image or text), just like a carousel.",
   "main": "index.js",
   "types": "index.d.ts",

@@ -44,6 +44,8 @@ export class Demo4 extends React.PureComponent {
 
 const styles = StyleSheet.create({
   container: {
+    justifyContent: 'center',
+    alignItems: 'center',
     paddingVertical: 5
   },
   card: {

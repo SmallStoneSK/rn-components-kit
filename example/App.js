@@ -28,7 +28,7 @@ const APP_DATA = [
       {title: 'Looped Carousel', component: CarouselDemos.Demo2},
       {title: 'Vertical Carousel', component: CarouselDemos.Demo3},
       {title: 'Item Size Smaller Than Container', component: CarouselDemos.Demo4},
-      {title: 'Center Mode Enablbed', component: CarouselDemos.Demo5},
+      {title: 'Center Mode Enabled', component: CarouselDemos.Demo5},
       {title: 'Auto Play Enabled', component: CarouselDemos.Demo6},
       {title: 'Custom Pagination Style', component: CarouselDemos.Demo7},
     ]
