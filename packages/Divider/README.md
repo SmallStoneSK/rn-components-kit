@@ -33,7 +33,7 @@ npm install @rn-components-kit/divider --save
 
 #### `style`
 
-Allow you to custom style
+Allow you to customize style
 
 |Type|Required|Default|
 |----|--------|-------|

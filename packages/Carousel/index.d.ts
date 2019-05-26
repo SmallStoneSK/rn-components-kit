@@ -6,7 +6,7 @@ declare module '@rn-components-kit/carousel' {
   interface Props {
 
     /**
-     * Allow you to custom style
+     * Allow you to customize style
      */
     style?: ViewStyle;
 
@@ -98,22 +98,22 @@ declare module '@rn-components-kit/carousel' {
     showPagination?: boolean;
 
     /**
-     * Allow you to custom pagination's container style
+     * Allow you to customize pagination's container style
      */
     paginationStyle?: ViewStyle;
 
     /**
-     * Allow you to custom pagination's dot style
+     * Allow you to customize pagination's dot style
      */
     dotStyle?: ViewStyle;
 
     /**
-     * Allow you to custom pagination's current dot style
+     * Allow you to customize pagination's current dot style
      */
     curDotStyle?: ViewStyle;
 
     /**
-     * Allow you to custom pagination module
+     * Allow you to customize pagination module
      */
     renderPagination?: (info: {curIndex: number, total: number}) => React.ReactElement | null;
 

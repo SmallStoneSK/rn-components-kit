@@ -6,8 +6,8 @@ English | [中文](./README.zh-CN.md)
 
 Switching selector. It supports the following features:
 
-- custom color
-- custom size
+- customize color
+- customize size
 - two types: `cupertino` and `material`
 
 ## How to use
@@ -44,7 +44,7 @@ npm install @rn-components-kit/switch --save
 
 #### `style`
 
-Allows you to custom style
+Allows you to customize style
 
 |Type|Required|Default|
 |----|--------|-------|

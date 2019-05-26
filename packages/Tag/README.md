@@ -6,7 +6,7 @@ English | [中文](./README.zh-CN.md)
 
 Tag for categorizing or markup. It supports the following features:
 
-- custom color
+- customize color
 - two types: `outline` and `solid`
 - closable and its callback
 
@@ -43,7 +43,7 @@ npm install @rn-components-kit/tag --save
 
 #### `style`
 
-Allow you to custom style
+Allow you to customize style
 
 |Type|Required|Default|
 |----|--------|-------|

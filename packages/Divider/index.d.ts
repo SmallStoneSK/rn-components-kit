@@ -6,7 +6,7 @@ declare module '@rn-components-kit/divider' {
   interface Props {
 
     /**
-     * Allow you to custom style
+     * Allow you to customize style
      */
     style?: ViewStyle;
 

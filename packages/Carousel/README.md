@@ -35,7 +35,7 @@ npm install @rn-components-kit/carousel --save
 |<img width="375" src="./preview/item-size-smaller-than-container.gif"/>|[Demo4 Code](./demos/Demo4.js)|
 |<img width="375" src="./preview/center-mode-enabled-carousel.gif"/>|[Demo5 Code](./demos/Demo5.js)|
 |<img width="375" src="./preview/auto-play-carousel.gif"/>|[Demo6 Code](./demos/Demo6.js)|
-|<img width="375" src="./preview/custom-pagination.gif"/>|[Demo7 Code](./demos/Demo7.js)|
+|<img width="375" src="./preview/customize-pagination.gif"/>|[Demo7 Code](./demos/Demo7.js)|
 
 ## Props
 
@@ -69,7 +69,7 @@ npm install @rn-components-kit/carousel --save
 
 #### `style`
 
-Allows you to custom style
+Allows you to customize style
 
 |Type|Required|Default|
 |----|--------|-------|
@@ -189,7 +189,7 @@ Determines whether pagination module is shown in carousel
 
 #### `paginationStyle`
 
-Allow you to custom pagination's container style
+Allow you to customize pagination's container style
 
 |Type|Required|Default|
 |----|--------|-------|
@@ -197,7 +197,7 @@ Allow you to custom pagination's container style
 
 #### `dotStyle`
 
-Allow you to custom pagination's dot style
+Allow you to customize pagination's dot style
 
 |Type|Required|Default|
 |----|--------|-------|
@@ -205,7 +205,7 @@ Allow you to custom pagination's dot style
 
 #### `curDotStyle`
 
-Allow you to custom pagination's current dot style
+Allow you to customize pagination's current dot style
 
 |Type|Required|Default|
 |----|--------|-------|
@@ -217,7 +217,7 @@ Allow you to custom pagination's current dot style
 (info: {curIndex: number, total: number}) => React.ReactElement | null
 ```
 
-Allow you to custom pagination module
+Allow you to customize pagination module
 
 |Type|Required|Default|
 |----|--------|-------|

@@ -216,7 +216,7 @@ export class Carousel extends React.PureComponent {
       return null;
     }
 
-    // custom pagination style
+    // customize pagination style
     const {curIndex} = this.state;
     const {renderPagination} = this.props;
     if(typeof renderPagination === 'function') {

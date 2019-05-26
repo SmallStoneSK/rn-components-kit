@@ -6,8 +6,8 @@ English | [中文](./README.zh-CN.md)
 
 Semantic vector graphics. It supports the following features:
 
-- custom size
-- custom color
+- customize size
+- customize color
 - integrated in [Ant-Design Preset](https://ant.design/components/icon/)
 
 :warning: **NOTE: Make sure your project has integrated in ART module.**
@@ -43,7 +43,7 @@ npm install @rn-components-kit/icon --save
 
 #### `style`
 
-Allow you to custom style
+Allow you to customize style
 
 |Type|Required|Default|
 |----|--------|-------|

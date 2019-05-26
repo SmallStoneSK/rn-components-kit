@@ -6,7 +6,7 @@ declare module '@rn-components-kit/switch' {
   interface Props {
 
     /**
-     * Allows you to custom style
+     * Allows you to customize style
      */
     style?: ViewStyle;
 
