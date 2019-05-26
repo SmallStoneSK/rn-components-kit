@@ -1,0 +1,23 @@
+{
+  "name": "@rn-components-kit/badge",
+  "version": "1.0.0",
+  "description": "Small numerical value or status descriptor for UI elements.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:SmallStoneSK/rn-components-kit.git"
+  },
+  "keywords": [
+    "react-native",
+    "reactnative",
+    "reactjs",
+    "UI kit",
+    "badge"
+  ],
+  "author": "SmallStoneSK",
+  "license": "MIT",
+  "dependencies": {
+    "@rn-components-kit/text": "^1.0.0"
+  }
+}

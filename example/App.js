@@ -13,6 +13,7 @@ import {Header} from './Components/Header';
 import {DemoModal} from './Components/DemoModal';
 import * as TagDemos from '../packages/Tag/demos/index';
 import * as IconDemos from '../packages/Icon/demos/index';
+import * as BadgeDemos from '../packages/Badge/demos/index';
 import * as SwitchDemos from '../packages/Switch/demos/index';
 import * as DividerDemos from '../packages/Divider/demos/index';
 import * as CarouselDemos from '../packages/Carousel/demos/index';
@@ -22,6 +23,15 @@ const {width} = Dimensions.get('window');
 const COLORS = ['#FF4777', '#725E82', '#FFA400', '#5D513C', '#00BC12', '#CA6924', '#CB3A56'];
 const APP_DATA = [
   {
+    title: 'Badge',
+    demos: [
+      {title: 'Pure Dot Style', component: BadgeDemos.Demo1},
+      {title: 'Number Within Dot Style', component: BadgeDemos.Demo2},
+      {title: 'Customize Color', component: BadgeDemos.Demo3},
+      {title: 'Friendly Animation', component: BadgeDemos.Demo4},
+    ]
+  },
+  {
     title: 'Carousel',
     demos: [
       {title: 'Default Carousel', component: CarouselDemos.Demo1},
@@ -30,7 +40,7 @@ const APP_DATA = [
       {title: 'Item Size Smaller Than Container', component: CarouselDemos.Demo4},
       {title: 'Center Mode Enabled', component: CarouselDemos.Demo5},
       {title: 'Auto Play Enabled', component: CarouselDemos.Demo6},
-      {title: 'Custom Pagination Style', component: CarouselDemos.Demo7},
+      {title: 'Customize Pagination Style', component: CarouselDemos.Demo7},
     ]
   },
   {

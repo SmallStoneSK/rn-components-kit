@@ -14,6 +14,8 @@
     }
   },
   "dependencies": {
+    "@rn-components-kit/switch": "^1.0.0",
+    "@rn-components-kit/icon": "^1.0.0",
     "react": "16.8.3",
     "react-native": "0.59.8"
   },
