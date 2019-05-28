@@ -25,8 +25,6 @@ npm install @rn-components-kit/divider --save
 - [`margin`](#margin)
 - [`padding`](#padding)
 
----
-
 ## Reference
 
 ### Props

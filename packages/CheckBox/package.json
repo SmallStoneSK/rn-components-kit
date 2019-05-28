@@ -1,0 +1,24 @@
+{
+  "name": "@rn-components-kit/checkbox",
+  "version": "1.0.0",
+  "description": "Allow users to complete tasks that involve making choices such as selecting options, or switching settings on or off",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:SmallStoneSK/rn-components-kit.git"
+  },
+  "keywords": [
+    "react-native",
+    "reactnative",
+    "reactjs",
+    "UI kit",
+    "checkbox"
+  ],
+  "author": "SmallStoneSK",
+  "license": "MIT",
+  "dependencies": {
+    "@rn-components-kit/icon": "^1.0.1",
+    "@rn-components-kit/text": "^1.0.0"
+  }
+}

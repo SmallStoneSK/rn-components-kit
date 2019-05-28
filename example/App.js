@@ -17,6 +17,7 @@ import * as BadgeDemos from '../packages/Badge/demos/index';
 import * as SwitchDemos from '../packages/Switch/demos/index';
 import * as DividerDemos from '../packages/Divider/demos/index';
 import * as CarouselDemos from '../packages/Carousel/demos/index';
+import * as CheckBoxDemos from '../packages/CheckBox/demos/index';
 
 const {width} = Dimensions.get('window');
 
@@ -41,6 +42,15 @@ const APP_DATA = [
       {title: 'Center Mode Enabled', component: CarouselDemos.Demo5},
       {title: 'Auto Play Enabled', component: CarouselDemos.Demo6},
       {title: 'Customize Pagination Style', component: CarouselDemos.Demo7},
+    ]
+  },
+  {
+    title: 'CheckBox',
+    demos: [
+      {title: 'Basic Usage', component: CheckBoxDemos.Demo1},
+      {title: 'Disabled CheckBox', component: CheckBoxDemos.Demo2},
+      {title: 'Customized Icon Style', component: CheckBoxDemos.Demo3},
+      {title: 'Three Animation Types', component: CheckBoxDemos.Demo4},
     ]
   },
   {
