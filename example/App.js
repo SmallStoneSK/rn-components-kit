@@ -18,6 +18,7 @@ import * as SwitchDemos from '../packages/Switch/demos/index';
 import * as DividerDemos from '../packages/Divider/demos/index';
 import * as CarouselDemos from '../packages/Carousel/demos/index';
 import * as CheckBoxDemos from '../packages/CheckBox/demos/index';
+import * as SkeletonDemos from '../packages/Skeleton/demos/index';
 
 const {width} = Dimensions.get('window');
 
@@ -66,6 +67,13 @@ const APP_DATA = [
       {title: 'Various Sizes', component: IconDemos.Demo1},
       {title: 'Various Types', component: IconDemos.Demo2},
       {title: 'Various Colors', component: IconDemos.Demo3},
+    ]
+  },
+  {
+    title: 'Skeleton',
+    demos: [
+      {title: 'Default Skeleton', component: SkeletonDemos.Demo1},
+      {title: 'Customize Skeleton', component: SkeletonDemos.Demo2},
     ]
   },
   {
