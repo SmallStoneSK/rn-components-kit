@@ -29,7 +29,7 @@ npm install @rn-components-kit/tooltip --save
 - [`backgroundColor`](#backgroundColor)
 - [`overlayColor`](#overlayColor)
 - [`placement`](#placement)
-- [`o否pen`](#o否pen)
+- [`onOpen`](#o否pen)
 - [`onClose`](#onClose)
 
 ## Methods
@@ -105,7 +105,7 @@ npm install @rn-components-kit/tooltip --save
 |----|--------|-------|
 |enum(`'top'`, `'bottom'`)|否|'bottom'|
 
-#### `o否pen`
+#### `onOpen`
 
 ```js
 () => void
