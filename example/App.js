@@ -16,7 +16,7 @@ import * as IconDemos from '../packages/Icon/demos/index';
 import * as BadgeDemos from '../packages/Badge/demos/index';
 import * as SwitchDemos from '../packages/Switch/demos/index';
 import * as DividerDemos from '../packages/Divider/demos/index';
-import * as ToolTipDemos from '../packages/ToolTip/demos/index';
+import * as TooltipDemos from '../packages/Tooltip/demos/index';
 import * as CarouselDemos from '../packages/Carousel/demos/index';
 import * as CheckBoxDemos from '../packages/CheckBox/demos/index';
 import * as SkeletonDemos from '../packages/Skeleton/demos/index';
@@ -96,9 +96,9 @@ const APP_DATA = [
     ]
   },
   {
-    title: 'ToolTip',
+    title: 'Tooltip',
     demos: [
-      {title: 'ToolTip Usages', component: ToolTipDemos.Demo1}
+      {title: 'Tooltip Usages', component: TooltipDemos.Demo1}
     ]
   }
 ];
