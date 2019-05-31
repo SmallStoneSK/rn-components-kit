@@ -16,6 +16,7 @@ import * as IconDemos from '../packages/Icon/demos/index';
 import * as BadgeDemos from '../packages/Badge/demos/index';
 import * as SwitchDemos from '../packages/Switch/demos/index';
 import * as DividerDemos from '../packages/Divider/demos/index';
+import * as ToolTipDemos from '../packages/ToolTip/demos/index';
 import * as CarouselDemos from '../packages/Carousel/demos/index';
 import * as CheckBoxDemos from '../packages/CheckBox/demos/index';
 import * as SkeletonDemos from '../packages/Skeleton/demos/index';
@@ -94,6 +95,12 @@ const APP_DATA = [
       {title: 'Closable Tags', component: TagDemos.Demo3}
     ]
   },
+  {
+    title: 'ToolTip',
+    demos: [
+      {title: 'ToolTip Usages', component: ToolTipDemos.Demo1}
+    ]
+  }
 ];
 
 export default class App extends Component {
@@ -133,22 +140,21 @@ export default class App extends Component {
   render() {
     const {modalVisible, selectedComponentIndex} = this.state;
     return (
-      <View>
+      <React.Fragment>
         <Header title={'Example App'}/>
-        <View style={styles.content}>
-          <FlatList
-            numColumns={2}
-            data={APP_DATA}
-            keyExtractor={(_, idx) => idx}
-            renderItem={this.renderItem}
-          />
-        </View>
+        <FlatList
+          numColumns={2}
+          data={APP_DATA}
+          style={styles.list}
+          keyExtractor={(_, idx) => idx}
+          renderItem={this.renderItem}
+        />
         <DemoModal
           visible={modalVisible}
           data={APP_DATA[selectedComponentIndex]}
           onClose={this.onCloseModal}
         />
-      </View>
+      </React.Fragment>
     );
   }
 }
@@ -161,7 +167,7 @@ const Helper = {
 };
 
 const styles = StyleSheet.create({
-  content: {
+  list: {
     padding: 5
   },
   card: {
