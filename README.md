@@ -17,3 +17,4 @@ A series of commonly used react-native components.
 |[switch](https://github.com/SmallStoneSK/rn-components-kit/tree/master/packages/Switch)|[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/switch.svg)](https://www.npmjs.com/package/@rn-components-kit/switch)|
 |[tag](https://github.com/SmallStoneSK/rn-components-kit/tree/master/packages/Tag)|[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/tag.svg)](https://www.npmjs.com/package/@rn-components-kit/tag)|
 |[text](https://github.com/SmallStoneSK/rn-components-kit/tree/master/packages/Text)|[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/text.svg)](https://www.npmjs.com/package/@rn-components-kit/text)|
+|[tooltip](https://github.com/SmallStoneSK/rn-components-kit/tree/master/packages/Tooltip)|[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/tooltip.svg)](https://www.npmjs.com/package/@rn-components-kit/tooltip)|
