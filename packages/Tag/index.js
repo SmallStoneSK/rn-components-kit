@@ -29,7 +29,7 @@ export class Tag extends React.PureComponent {
   };
 
   get containerStyle() {
-    const {style, type, color, borderRadius, paddingHorizontal, paddingVertical} = this.props;
+    const {style, type, color, borderRadius, borderColor, paddingHorizontal, paddingVertical} = this.props;
     return [
       Object.assign({
         flexDirection: 'row',
@@ -39,7 +39,7 @@ export class Tag extends React.PureComponent {
         paddingVertical,
         borderRadius,
         borderWidth: StyleSheet.hairlineWidth,
-        borderColor: color
+        borderColor: borderColor || color
       }, type === 'solid' ? {backgroundColor: color} : {}),
       style
     ];

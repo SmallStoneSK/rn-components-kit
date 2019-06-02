@@ -1,6 +1,6 @@
 {
   "name": "@rn-components-kit/tag",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tag for categorizing or markup.",
   "main": "index.js",
   "types": "index.d.ts",

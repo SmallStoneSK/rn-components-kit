@@ -52,6 +52,11 @@ declare module '@rn-components-kit/tag' {
     borderRadius?: number;
 
     /**
+     * Color of tag's border. If it is not set, the default is the same as color
+     */
+    borderColor?: string;
+
+    /**
      * Determines whether an animation enabled when the tag is closed
      * default: false
      */

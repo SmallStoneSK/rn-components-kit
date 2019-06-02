@@ -32,6 +32,7 @@ npm install @rn-components-kit/tag --save
 - [`paddingHorizontal`](#paddingHorizontal)
 - [`paddingVertical`](#paddingVertical)
 - [`borderRadius`](#borderRadius)
+- [`borderColor`](#borderColor)
 - [`animatedWhenDisappear`](#animatedWhenDisappear)
 - [`animationDuration`](#animationDuration)
 - [`closable`](#closable)
@@ -104,6 +105,14 @@ npm install @rn-components-kit/tag --save
 |类型|必填|默认值|
 |----|--------|-------|
 |number|否|3|
+
+#### `borderColor`
+
+标签边框颜色。如果`borderColor`没有设置，那么默认和`color`保持一致
+
+|类型|必填|默认值|
+|----|--------|-------|
+|string|否|-|
 
 #### `animatedWhenDisappear`
 

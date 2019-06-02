@@ -32,6 +32,7 @@ npm install @rn-components-kit/tag --save
 - [`paddingHorizontal`](#paddingHorizontal)
 - [`paddingVertical`](#paddingVertical)
 - [`borderRadius`](#borderRadius)
+- [`borderColor`](#borderColor)
 - [`animatedWhenDisappear`](#animatedWhenDisappear)
 - [`animationDuration`](#animationDuration)
 - [`closable`](#closable)
@@ -104,6 +105,14 @@ Determines the border radius value of tag
 |Type|Required|Default|
 |----|--------|-------|
 |number|no|3|
+
+#### `borderColor`
+
+Color of tag's border. If it is not set, the default is the same as `color`
+
+|Type|Required|Default|
+|----|--------|-------|
+|string|no|-|
 
 #### `animatedWhenDisappear`
 
