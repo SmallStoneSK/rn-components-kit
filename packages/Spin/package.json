@@ -1,0 +1,21 @@
+{
+  "name": "@rn-components-kit/spin",
+  "version": "1.0.0",
+  "description": "For displaying loading state of a page or a section.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:SmallStoneSK/rn-components-kit.git"
+  },
+  "keywords": [
+    "react-native",
+    "reactnative",
+    "reactjs",
+    "UI kit",
+    "spin",
+    "loading"
+  ],
+  "author": "SmallStoneSK",
+  "license": "MIT"
+}

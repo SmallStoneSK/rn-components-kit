@@ -13,6 +13,7 @@ import {Header} from './Components/Header';
 import {DemoModal} from './Components/DemoModal';
 import * as TagDemos from '../packages/Tag/demos/index';
 import * as IconDemos from '../packages/Icon/demos/index';
+import * as SpinDemos from '../packages/Spin/demos/index';
 import * as BadgeDemos from '../packages/Badge/demos/index';
 import * as SwitchDemos from '../packages/Switch/demos/index';
 import * as DividerDemos from '../packages/Divider/demos/index';
@@ -75,6 +76,18 @@ const APP_DATA = [
     demos: [
       {title: 'Default Skeleton', component: SkeletonDemos.Demo1},
       {title: 'Customize Skeleton', component: SkeletonDemos.Demo2},
+    ]
+  },
+  {
+    title: 'Spin',
+    demos: [
+      {title: 'Ladder', component: SpinDemos.Demo1},
+      {title: 'Rainbow', component: SpinDemos.Demo2},
+      {title: 'Wave (rect and dot two types)', component: SpinDemos.Demo3},
+      {title: 'Rolling Cubes', component: SpinDemos.Demo4},
+      {title: 'Chasing Circles', component: SpinDemos.Demo5},
+      {title: 'Pulse', component: SpinDemos.Demo6},
+      {title: 'Flipping Card', component: SpinDemos.Demo7},
     ]
   },
   {
