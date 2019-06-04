@@ -71,4 +71,8 @@ npm install @rn-components-kit/icon --save
 
 |类型|必填|默认值|
 |----|--------|-------|
-|枚举值|是|-|
+|[枚举值](#图标类型)|是|-|
+
+## 图标类型
+
+![Icon Types](./preview/iconTypes.png)

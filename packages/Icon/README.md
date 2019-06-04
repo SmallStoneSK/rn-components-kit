@@ -71,4 +71,8 @@ Icon type, integrated in [Ant-Design Preset](https://ant.design/components/icon/
 
 |Type|Required|Default|
 |----|--------|-------|
-|number|yes|-|
+|[enum](#icon-types)|yes|-|
+
+## Icon Types
+
+![Icon Types](./preview/iconTypes.png)
