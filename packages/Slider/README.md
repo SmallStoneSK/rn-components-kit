@@ -192,7 +192,7 @@ A callback will be triggered when slider starts to slide
 |----|--------|-------|
 |function|no|() => {}|
 
-#### `onBeginSliding`
+#### `onEndSliding`
 
 ```js
 () => void

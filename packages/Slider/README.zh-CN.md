@@ -192,7 +192,7 @@ Slider组件将会把当前值传给tipFormatter，然后将其返回值显示�
 |----|--------|-------|
 |function|否|() => {}|
 
-#### `onBeginSliding`
+#### `onEndSliding`
 
 ```js
 () => void
