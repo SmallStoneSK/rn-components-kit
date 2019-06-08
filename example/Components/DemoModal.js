@@ -18,7 +18,9 @@ export class DemoModal extends React.PureComponent {
     onClose: () => {}
   };
 
-  renderItem = ({item}) => <Demo {...item}/>
+  getSvRef = () => this.svRef;
+
+  renderItem = ({item}) => <Demo getSvRef={this.getSvRef} {...item}/>
 
   render() {
     const {visible, data, onClose} = this.props;
@@ -30,7 +32,7 @@ export class DemoModal extends React.PureComponent {
         onRequestClose={onClose}
       >
         <Header title={`${data.title} Component`} closable={true} onClose={onClose}/>
-        <ScrollView>
+        <ScrollView ref={_ => this.svRef = _}>
           <FlatList
             data={data.demos}
             scrollEnabled={false}

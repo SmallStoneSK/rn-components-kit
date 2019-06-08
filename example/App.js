@@ -15,6 +15,7 @@ import * as TagDemos from '../packages/Tag/demos/index';
 import * as IconDemos from '../packages/Icon/demos/index';
 import * as SpinDemos from '../packages/Spin/demos/index';
 import * as BadgeDemos from '../packages/Badge/demos/index';
+import * as SliderDemos from '../packages/Slider/demos/index';
 import * as SwitchDemos from '../packages/Switch/demos/index';
 import * as DividerDemos from '../packages/Divider/demos/index';
 import * as TooltipDemos from '../packages/Tooltip/demos/index';
@@ -76,6 +77,15 @@ const APP_DATA = [
     demos: [
       {title: 'Default Skeleton', component: SkeletonDemos.Demo1},
       {title: 'Customize Skeleton', component: SkeletonDemos.Demo2},
+    ]
+  },
+  {
+    title: 'Slider',
+    demos: [
+      {title: 'Horizontal Slider', component: SliderDemos.Demo1},
+      {title: 'Vertical Slider', component: SliderDemos.Demo2},
+      {title: 'Customized Tip', component: SliderDemos.Demo3},
+      {title: 'Customized Track and Thumb', component: SliderDemos.Demo4},
     ]
   },
   {

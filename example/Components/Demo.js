@@ -12,10 +12,10 @@ import {Divider} from '../../packages/Divider';
 
 export class Demo extends React.PureComponent {
   render() {
-    const {title, component: Component} = this.props
+    const {title, getSvRef, component: Component} = this.props
     return (
       <View style={styles.container}>
-        <Component/>
+        <Component getSvRef={getSvRef}/>
         <Divider/>
         <View style={styles.titleWrapper}>
           <Text style={styles.titleText}>{title}</Text>
