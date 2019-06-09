@@ -14,7 +14,7 @@ declare module '@rn-components-kit/slider' {
      * The minimum value that thumb can slide to
      * default: 0
      */
-    min?: numbber;
+    min?: number;
 
     /**
      * The maximum value that thumb can slide to
