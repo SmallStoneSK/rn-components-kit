@@ -63,7 +63,7 @@ Determines the icon's size
 
 |Type|Required|Default|
 |----|--------|-------|
-|enum value|no|15|
+|number|no|15|
 
 #### `type`
 
@@ -71,7 +71,7 @@ Icon type, integrated in [Ant-Design Preset](https://ant.design/components/icon/
 
 |Type|Required|Default|
 |----|--------|-------|
-|[enum](#icon-types)|yes|-|
+|[enum types](#icon-types)|yes|-|
 
 ## Icon Types
 
