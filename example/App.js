@@ -22,6 +22,7 @@ import * as TooltipDemos from '../packages/Tooltip/demos/index';
 import * as CarouselDemos from '../packages/Carousel/demos/index';
 import * as CheckBoxDemos from '../packages/CheckBox/demos/index';
 import * as SkeletonDemos from '../packages/Skeleton/demos/index';
+import * as SwipeOutDemos from '../packages/SwipeOut/demos/index';
 
 const {width} = Dimensions.get('window');
 
@@ -111,6 +112,14 @@ const APP_DATA = [
     ]
   },
   {
+    title: 'SwipeOut',
+    demos: [
+      {title: 'Swipe Out From Left and Right', component: SwipeOutDemos.Demo1},
+      {title: 'Multiple Hidden buttons', component: SwipeOutDemos.Demo2},
+      {title: 'Custmized Hidden Part', component: SwipeOutDemos.Demo3}
+    ]
+  },
+  {
     title: 'Tag',
     demos: [
       {title: 'Colorful Outline Tags', component: TagDemos.Demo1},
@@ -152,7 +161,7 @@ export default class App extends Component {
     const firstLetter = title[0];
     return (
       <TouchableOpacity style={styles.card} onPress={() => this.onPressCard(index)}>
-        <View style={[styles.badgeWrapper, {backgroundColor: Helper.getColor(firstLetter)}]}>
+        <View style={[styles.badgeWrapper, {backgroundColor: COLORS[index % COLORS.length]}]}>
           <Text style={styles.badgeText}>{firstLetter}</Text>
         </View>
         <Text style={styles.cardTitle}>{title}</Text>
@@ -181,13 +190,6 @@ export default class App extends Component {
     );
   }
 }
-
-const Helper = {
-  getColor(letter) {
-    const num = letter.toUpperCase().charCodeAt() - 'A'.charCodeAt();
-    return COLORS[num % COLORS.length];
-  }
-};
 
 const styles = StyleSheet.create({
   list: {

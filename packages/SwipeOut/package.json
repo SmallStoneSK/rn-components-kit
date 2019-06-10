@@ -1,0 +1,23 @@
+{
+  "name": "@rn-components-kit/swipe-out",
+  "version": "1.0.0",
+  "description": "iOS-style swipe-out buttons that appear from behind a component.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:SmallStoneSK/rn-components-kit.git"
+  },
+  "keywords": [
+    "react-native",
+    "reactnative",
+    "reactjs",
+    "UI kit",
+    "swipe-out"
+  ],
+  "author": "SmallStoneSK",
+  "license": "MIT",
+  "dependencies": {
+    "@rn-components-kit/text": "^1.0.0"
+  }
+}
