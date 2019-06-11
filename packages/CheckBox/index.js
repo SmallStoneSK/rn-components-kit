@@ -1,29 +1,15 @@
 import * as React from 'react';
 
 import {
+  View,
   Image,
-  UIManager,
+  Animated,
   StyleSheet,
-  LayoutAnimation,
   TouchableOpacity
 } from 'react-native';
 
 import {Icon} from '@rn-components-kit/icon';
 import {Text} from '@rn-components-kit/text';
-
-UIManager.setLayoutAnimationEnabledExperimental && UIManager.setLayoutAnimationEnabledExperimental(true);
-const ANIMATION_CONFIG_SET = {
-  opacity: LayoutAnimation.create(
-    150,
-    LayoutAnimation.Types.linear,
-    LayoutAnimation.Properties.opacity
-  ),
-  size: LayoutAnimation.create(
-    150,
-    LayoutAnimation.Types.linear,
-    LayoutAnimation.Properties.scaleXY
-  )
-};
 
 export class CheckBox extends React.PureComponent {
 
@@ -39,35 +25,96 @@ export class CheckBox extends React.PureComponent {
     onPress: () => {}
   };
 
-  componentWillUpdate(nextProps) {
+  componentWillMount() {
+    this.initAnimatedStyles();
+  }
+
+  componentWillReceiveProps(nextProps) {
     if(nextProps.checked !== this.props.checked) {
-      const animationConfig = ANIMATION_CONFIG_SET[nextProps.animationType];
-      animationConfig && LayoutAnimation.configureNext(animationConfig);
+      this.playAnimation(nextProps.checked);
     }
+  }
+
+  componentWillUnmount() {
+    this.stopAnimation();
+  }
+
+  initAnimatedStyles() {
+    const {checked, animationType} = this.props;
+    const isSize = animationType === 'size';
+    const isOpacity = animationType === 'opacity';
+    this.opacityAnimatedValue = new Animated.Value(checked ? 1 : 0);
+    this.sizeAnimatedValue = new Animated.Value(checked ? 1 : 0);
+    this.checkedStyle = {
+      ...StyleSheet.absoluteFillObject,
+      opacity: this.opacityAnimatedValue.interpolate({inputRange: [0, 1], outputRange: [isSize ? 1 : 0, 1]}),
+      transform: [{scale: this.sizeAnimatedValue.interpolate({inputRange: [0, 1], outputRange: [isOpacity ? 1 : 0, 1]})}]
+    };
+    this.unCheckedStyle = {
+      ...StyleSheet.absoluteFillObject,
+      opacity: this.opacityAnimatedValue.interpolate({inputRange: [0, 1], outputRange: [1, isSize ? 1 : 0]}),
+      transform: [{scale: this.sizeAnimatedValue.interpolate({inputRange: [0, 1], outputRange: [1, isOpacity ? 1 : 0]})}]
+    };
+  }
+
+  playAnimation(checked) {
+    const toValue = checked ? 1 : 0;
+    if(this.props.animationType === 'none') {
+      this.sizeAnimatedValue.setValue(toValue);
+      this.opacityAnimatedValue.setValue(toValue);
+    } else {
+      this.animation = Animated.parallel(
+        [this.sizeAnimatedValue, this.opacityAnimatedValue].map(item => (
+          Animated.spring(item, {
+            toValue,
+            duration: 200,
+            isInteraction: false,
+            useNativeDriver: true
+          })
+        ))
+      );
+      this.animation.start();
+    }
+  }
+
+  stopAnimation() {
+    this.animation && this.animation.stop();
   }
 
   renderCheckedElement() {
+    let component = null;
     const {iconSize, checkedImage, checkedIconType, checkedIconColor} = this.props;
     if(checkedImage) {
       const imageSrc = typeof checkedImage === 'string' ? {uri: checkedImage} : checkedImage;
-      return <Image source={imageSrc} style={{width: iconSize, height: iconSize}}/>;
+      component = <Image source={imageSrc} style={{width: iconSize, height: iconSize}}/>;
     } else {
-      return <Icon size={iconSize} type={checkedIconType} color={checkedIconColor}/>;
+      component = <Icon size={iconSize} type={checkedIconType} color={checkedIconColor}/>;
     }
+    return (
+      <Animated.View style={this.checkedStyle}>
+        {component}
+      </Animated.View>
+    );
   }
 
   renderUnCheckedElement() {
+    let component = null;
     const {iconSize, unCheckedImage, unCheckedIconType, unCheckedIconColor} = this.props;
     if(unCheckedImage) {
       const imageSrc = typeof checkedImage === 'string' ? {uri: unCheckedImage} : unCheckedImage;
-      return <Image source={imageSrc} style={{width: iconSize, height: iconSize}}/>;
+      component = <Image source={imageSrc} style={{width: iconSize, height: iconSize}}/>;
     } else {
-      return <Icon size={iconSize} type={unCheckedIconType} color={unCheckedIconColor}/>;
+      component = <Icon size={iconSize} type={unCheckedIconType} color={unCheckedIconColor}/>;
     }
+    return (
+      <Animated.View style={this.unCheckedStyle}>
+        {component}
+      </Animated.View>
+    );
   }
 
   render() {
-    const {style, title, titleStyle, checked, disabled, onPress} = this.props;
+    const {style, iconSize, title, titleStyle, disabled, onPress} = this.props;
     return (
       <TouchableOpacity
         activeOpacity={1}
@@ -75,8 +122,10 @@ export class CheckBox extends React.PureComponent {
         style={[styles.container, style, disabled && {opacity: .5}]}
         onPress={onPress}
       >
-        {checked && this.renderCheckedElement()}
-        {!checked && this.renderUnCheckedElement()}
+        <View style={[styles.center, {width: iconSize, height: iconSize}]}>
+          {this.renderCheckedElement()}
+          {this.renderUnCheckedElement()}
+        </View>
         <Text style={[styles.titleText, titleStyle]}>{title}</Text>
       </TouchableOpacity>
     );
@@ -86,6 +135,10 @@ export class CheckBox extends React.PureComponent {
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+  center: {
     justifyContent: 'center',
     alignItems: 'center'
   },
