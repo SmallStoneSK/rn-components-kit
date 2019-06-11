@@ -34,6 +34,7 @@ npm install @rn-components-kit/checkbox --save
 - [`unCheckedIconColor`](#unCheckedIconColor)
 - [`unCheckedImage`](#unCheckedImage)
 - [`animationType`](#animationType)
+- [`onPress`](#onPress)
 
 ## Reference
 
