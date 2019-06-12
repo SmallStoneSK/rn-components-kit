@@ -62,7 +62,7 @@ The minimum value that thumb can slide to
 
 |Type|Required|Default|
 |----|--------|-------|
-|numer|no|0|
+|number|no|0|
 
 #### `max`
 
@@ -154,7 +154,7 @@ Allows you to fully customize thumb module
 
 |Type|Required|Default|
 |----|--------|-------|
-|function|no|() => {}|
+|function|no|-|
 
 #### `tipFormatter`
 

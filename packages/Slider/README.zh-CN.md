@@ -62,7 +62,7 @@ npm install @rn-components-kit/slider --save
 
 |类型|必填|默认值|
 |----|--------|-------|
-|numer|否|0|
+|number|否|0|
 
 #### `max`
 
@@ -154,7 +154,7 @@ false时，只有一个滑块；true时，有两个滑块
 
 |类型|必填|默认值|
 |----|--------|-------|
-|function|否|() => {}|
+|function|否|-|
 
 #### `tipFormatter`
 
