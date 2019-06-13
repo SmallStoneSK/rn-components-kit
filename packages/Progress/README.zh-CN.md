@@ -152,7 +152,7 @@ Progress组件将会把当前进度值传给percentFormatter，然后将其返�
 
 |类型|必填|默认值|
 |----|--------|-------|
-|function|否|value => `${value}%`|
+|function|否|value => \`${value}%\`|
 
 #### `renderInfo`
 
