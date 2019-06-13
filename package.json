@@ -17,8 +17,10 @@
     "@rn-components-kit/divider": "^1.0.0",
     "@rn-components-kit/icon": "^1.0.0",
     "@rn-components-kit/switch": "^1.0.0",
+    "@rn-components-kit/text": "^1.0.0",
     "react": "16.8.3",
-    "react-native": "0.59.8"
+    "react-native": "0.59.8",
+    "react-native-linear-gradient": "^2.5.4"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",

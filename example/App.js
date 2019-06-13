@@ -22,6 +22,7 @@ import * as DividerDemos from '../packages/Divider/demos/index';
 import * as TooltipDemos from '../packages/Tooltip/demos/index';
 import * as CarouselDemos from '../packages/Carousel/demos/index';
 import * as CheckBoxDemos from '../packages/CheckBox/demos/index';
+import * as ProgressDemos from '../packages/Progress/demos/index';
 import * as SkeletonDemos from '../packages/Skeleton/demos/index';
 import * as SwipeOutDemos from '../packages/SwipeOut/demos/index';
 
@@ -72,6 +73,16 @@ const APP_DATA = [
       {title: 'Various Sizes', component: IconDemos.Demo1},
       {title: 'Various Types', component: IconDemos.Demo2},
       {title: 'Various Colors', component: IconDemos.Demo3},
+    ]
+  },
+  {
+    title: 'Progress',
+    demos: [
+      {title: 'Line Progress Bar', component: ProgressDemos.Demo1},
+      {title: 'Colorful (Supports Gradient)', component: ProgressDemos.Demo2},
+      {title: 'Circular Progress Bar', component: ProgressDemos.Demo3},
+      {title: 'Dynamic Percent Changing Transition', component: ProgressDemos.Demo4},
+      {title: 'Customized Percent Formatter', component: ProgressDemos.Demo5},
     ]
   },
   {

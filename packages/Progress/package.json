@@ -1,0 +1,25 @@
+{
+  "name": "@rn-components-kit/progress",
+  "version": "1.0.0",
+  "description": "Display the current progress of an operation flow.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:SmallStoneSK/rn-components-kit.git"
+  },
+  "keywords": [
+    "react-native",
+    "reactnative",
+    "reactjs",
+    "UI kit",
+    "progress"
+  ],
+  "author": "SmallStoneSK",
+  "license": "MIT",
+  "dependencies": {
+    "@rn-components-kit/icon": "^1.0.2",
+    "@rn-components-kit/text": "^1.0.0",
+    "react-native-linear-gradient": "^2.5.4"
+  }
+}
