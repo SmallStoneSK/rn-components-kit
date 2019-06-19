@@ -1,0 +1,20 @@
+{
+  "name": "@rn-components-kit/scroll-picker",
+  "version": "1.0.0",
+  "description": "Selecting option by scrolling operation.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:SmallStoneSK/rn-components-kit.git"
+  },
+  "keywords": [
+    "react-native",
+    "reactnative",
+    "reactjs",
+    "UI kit",
+    "scroll-picker"
+  ],
+  "author": "SmallStoneSK",
+  "license": "MIT"
+}

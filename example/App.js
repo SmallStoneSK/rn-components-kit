@@ -25,6 +25,7 @@ import * as CheckBoxDemos from '../packages/CheckBox/demos/index';
 import * as ProgressDemos from '../packages/Progress/demos/index';
 import * as SkeletonDemos from '../packages/Skeleton/demos/index';
 import * as SwipeOutDemos from '../packages/SwipeOut/demos/index';
+import * as ScrollPickerDemos from '../packages/ScrollPicker/demos/index';
 
 const {width} = Dimensions.get('window');
 
@@ -92,6 +93,14 @@ const APP_DATA = [
       {title: 'Disabled Radio', component: RadioDemos.Demo2},
       {title: 'Customized Icon Style', component: RadioDemos.Demo3},
       {title: 'Three Animation Types', component: RadioDemos.Demo4},
+    ]
+  },
+  {
+    title: 'ScrollPicker',
+    demos: [
+      {title: 'Basic Usage', component: ScrollPickerDemos.Demo1},
+      {title: 'Cascading', component: ScrollPickerDemos.Demo2},
+      {title: 'Customize Option Content', component: ScrollPickerDemos.Demo3},
     ]
   },
   {
