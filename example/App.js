@@ -16,6 +16,7 @@ import * as IconDemos from '../packages/Icon/demos/index';
 import * as SpinDemos from '../packages/Spin/demos/index';
 import * as BadgeDemos from '../packages/Badge/demos/index';
 import * as RadioDemos from '../packages/Radio/demos/index';
+import * as RatingDemos from '../packages/Rating/demos/index';
 import * as SliderDemos from '../packages/Slider/demos/index';
 import * as SwitchDemos from '../packages/Switch/demos/index';
 import * as DividerDemos from '../packages/Divider/demos/index';
@@ -93,6 +94,14 @@ const APP_DATA = [
       {title: 'Disabled Radio', component: RadioDemos.Demo2},
       {title: 'Customized Icon Style', component: RadioDemos.Demo3},
       {title: 'Three Animation Types', component: RadioDemos.Demo4},
+    ]
+  },
+  {
+    title: 'Rating',
+    demos: [
+      {title: 'Basic Usage', component: RatingDemos.Demo1},
+      {title: 'Customize Icon (type, color, size)', component: RatingDemos.Demo2},
+      {title: 'Different Step', component: RatingDemos.Demo3},
     ]
   },
   {

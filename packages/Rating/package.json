@@ -1,0 +1,23 @@
+{
+  "name": "@rn-components-kit/rating",
+  "version": "1.0.0",
+  "description": "Radio buttons allow users to select one option from a set.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:SmallStoneSK/rn-components-kit.git"
+  },
+  "keywords": [
+    "react-native",
+    "reactnative",
+    "reactjs",
+    "UI kit",
+    "rating"
+  ],
+  "author": "SmallStoneSK",
+  "license": "MIT",
+  "dependencies": {
+    "@rn-components-kit/icon": "^1.0.2"
+  }
+}
