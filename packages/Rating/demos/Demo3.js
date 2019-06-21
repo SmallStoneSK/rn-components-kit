@@ -11,10 +11,10 @@ import {Rating} from '../index';
 export class Demo3 extends React.PureComponent {
 
   state = {
-    value1: 2,
+    value1: 1,
     value2: 2,
-    value3: 2,
-    value4: 2
+    value3: 3,
+    value4: 4
   };
 
   onValueChange1 = newValue => this.setState({value1: newValue});
@@ -31,8 +31,8 @@ export class Demo3 extends React.PureComponent {
       <View style={styles.container}>
         <View style={styles.row}>
           <Rating
-            value={2}
             step={0.1}
+            value={value1}
             style={styles.rating}
             onValueChange={this.onValueChange1}
           />
@@ -40,8 +40,8 @@ export class Demo3 extends React.PureComponent {
         </View>
         <View style={styles.row}>
           <Rating
-            value={2}
             step={0.2}
+            value={value2}
             style={styles.rating}
             onValueChange={this.onValueChange2}
           />
@@ -49,8 +49,8 @@ export class Demo3 extends React.PureComponent {
         </View>
         <View style={styles.row}>
           <Rating
-            value={2}
             step={0.5}
+            value={value3}
             style={styles.rating}
             onValueChange={this.onValueChange3}
           />
@@ -58,8 +58,8 @@ export class Demo3 extends React.PureComponent {
         </View>
         <View style={styles.row}>
           <Rating
-            value={2}
             step={1}
+            value={value4}
             style={styles.rating}
             onValueChange={this.onValueChange4}
           />
