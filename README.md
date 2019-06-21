@@ -4,6 +4,28 @@ English | [中文](./README.zh-CN.md)
 
 A series of commonly used react-native components.
 
+## Screenshots
+
+<div>
+  <img width="200" heihgt="390" src="./screenshots/app.png"/>
+  <img width="200" heihgt="390" src="./screenshots/badge.png"/>
+  <img width="200" heihgt="390" src="./screenshots/carousel.png"/>
+  <img width="200" heihgt="390" src="./screenshots/checkbox.png"/>
+  <img width="200" heihgt="390" src="./screenshots/divider.png"/>
+  <img width="200" heihgt="390" src="./screenshots/icon.png"/>
+  <img width="200" heihgt="390" src="./screenshots/progress.png"/>
+  <img width="200" heihgt="390" src="./screenshots/radio.png"/>
+  <img width="200" heihgt="390" src="./screenshots/rating.png"/>
+  <img width="200" heihgt="390" src="./screenshots/scroll-picker.png"/>
+  <img width="200" heihgt="390" src="./screenshots/skeleton.png"/>
+  <img width="200" heihgt="390" src="./screenshots/slider.png"/>
+  <img width="200" heihgt="390" src="./screenshots/spin.png"/>
+  <img width="200" heihgt="390" src="./screenshots/swipe-out.png"/>
+  <img width="200" heihgt="390" src="./screenshots/switch.png"/>
+  <img width="200" heihgt="390" src="./screenshots/tag.png"/>
+  <img width="200" heihgt="390" src="./screenshots/tooltip.png"/>
+</div>
+
 ## Components
 
 |component|version|
