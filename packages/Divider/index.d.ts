@@ -1,7 +1,7 @@
 declare module '@rn-components-kit/divider' {
 
-  import {SFC} from 'react';
-  import React, {ViewStyle} from 'react-native'
+  import * as React from 'react';
+  import {ViewStyle} from 'react-native'
 
   interface Props {
 
@@ -35,5 +35,5 @@ declare module '@rn-components-kit/divider' {
     padding?: number;
   }
 
-  export const Divider: SFC<Props>;
+  export const Divider: React.SFC<Props>;
 }

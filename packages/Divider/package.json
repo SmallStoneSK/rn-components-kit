@@ -1,6 +1,6 @@
 {
   "name": "@rn-components-kit/divider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dividers are visual separators of content.",
   "main": "index.js",
   "types": "index.d.ts",
