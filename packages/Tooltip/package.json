@@ -1,6 +1,6 @@
 {
   "name": "@rn-components-kit/tooltip",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tooltips display infomation when users tap on an element.",
   "main": "index.js",
   "types": "index.d.ts",
