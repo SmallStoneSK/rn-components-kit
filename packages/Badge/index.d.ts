@@ -1,7 +1,7 @@
 declare module '@rn-components-kit/badge' {
 
-  import {SFC} from 'react';
-  import React, {ViewStyle} from 'react-native'
+  import * as React from 'react';
+  import {ViewStyle} from 'react-native'
 
   interface Props {
 
@@ -54,5 +54,5 @@ declare module '@rn-components-kit/badge' {
     offsetY?: number;
   }
 
-  export const Badge: SFC<Props>;
+  export const Badge: React.SFC<Props>;
 }
