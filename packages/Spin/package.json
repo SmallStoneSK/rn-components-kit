@@ -1,6 +1,6 @@
 {
   "name": "@rn-components-kit/spin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "For displaying loading state of a page or a section.",
   "main": "index.js",
   "types": "index.d.ts",
