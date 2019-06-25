@@ -1,6 +1,6 @@
 declare module '@rn-components-kit/slider' {
 
-  import React from 'react';
+  import * as React from 'react';
   import {ViewStyle, TextStyle} from 'react-native'
 
   interface Props {

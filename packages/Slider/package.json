@@ -1,6 +1,6 @@
 {
   "name": "@rn-components-kit/slider",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Slider allows users to select a value from a fixed set of options.",
   "main": "index.js",
   "types": "index.d.ts",
