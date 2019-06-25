@@ -26,6 +26,7 @@ import * as CheckBoxDemos from '../packages/CheckBox/demos/index';
 import * as ProgressDemos from '../packages/Progress/demos/index';
 import * as SkeletonDemos from '../packages/Skeleton/demos/index';
 import * as SwipeOutDemos from '../packages/SwipeOut/demos/index';
+import * as DeckSwiperDemos from '../packages/DeckSwiper/demos/index';
 import * as ScrollPickerDemos from '../packages/ScrollPicker/demos/index';
 
 const {width} = Dimensions.get('window');
@@ -60,6 +61,12 @@ const APP_DATA = [
       {title: 'Disabled CheckBox', component: CheckBoxDemos.Demo2},
       {title: 'Customized Icon Style', component: CheckBoxDemos.Demo3},
       {title: 'Three Animation Types', component: CheckBoxDemos.Demo4},
+    ]
+  },
+  {
+    title: 'DeckSwiper',
+    demos: [
+      {title: 'Basic Usage', component: DeckSwiperDemos.Demo1}
     ]
   },
   {

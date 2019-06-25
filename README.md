@@ -11,6 +11,7 @@ A series of commonly used react-native components.
   <img width="200" heihgt="390" src="./screenshots/badge.png"/>
   <img width="200" heihgt="390" src="./screenshots/carousel.png"/>
   <img width="200" heihgt="390" src="./screenshots/checkbox.png"/>
+  <img width="200" heihgt="390" src="./screenshots/deck-swiper.png"/>
   <img width="200" heihgt="390" src="./screenshots/divider.png"/>
   <img width="200" heihgt="390" src="./screenshots/icon.png"/>
   <img width="200" heihgt="390" src="./screenshots/progress.png"/>
@@ -33,6 +34,7 @@ A series of commonly used react-native components.
 |[badge](https://github.com/SmallStoneSK/rn-components-kit/tree/master/packages/Badge)|[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/badge.svg)](https://www.npmjs.com/package/@rn-components-kit/badge)|
 |[carousel](https://github.com/SmallStoneSK/rn-components-kit/tree/master/packages/Carousel)|[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/carousel.svg)](https://www.npmjs.com/package/@rn-components-kit/carousel)|
 |[checkbox](https://github.com/SmallStoneSK/rn-components-kit/tree/master/packages/CheckBox)|[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/checkbox.svg)](https://www.npmjs.com/package/@rn-components-kit/checkbox)|
+|[deck-swiper](https://github.com/SmallStoneSK/rn-components-kit/tree/master/packages/DeckSwiper)|[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/deck-swiper.svg)](https://www.npmjs.com/package/@rn-components-kit/deck-swiper)|
 |[divider](https://github.com/SmallStoneSK/rn-components-kit/tree/master/packages/Divider)|[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/divider.svg)](https://www.npmjs.com/package/@rn-components-kit/divider)|
 |[icon](https://github.com/SmallStoneSK/rn-components-kit/tree/master/packages/Icon)|[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/icon.svg)](https://www.npmjs.com/package/@rn-components-kit/icon)|
 |[progress](https://github.com/SmallStoneSK/rn-components-kit/tree/master/packages/Progress)|[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/progress.svg)](https://www.npmjs.com/package/@rn-components-kit/progress)|

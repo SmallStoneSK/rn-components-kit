@@ -1,0 +1,23 @@
+{
+  "name": "@rn-components-kit/deck-swiper",
+  "version": "1.0.0",
+  "description": "Deck Swiper helps you evaluate one option at a time, instead of selecting from a set of options.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:SmallStoneSK/rn-components-kit.git"
+  },
+  "keywords": [
+    "react-native",
+    "reactnative",
+    "reactjs",
+    "UI kit",
+    "deck-swiper"
+  ],
+  "author": "SmallStoneSK",
+  "license": "MIT",
+  "dependencies": {
+    "@rn-components-kit/text": "^1.0.0"
+  }
+}
