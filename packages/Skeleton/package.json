@@ -1,6 +1,6 @@
 {
   "name": "@rn-components-kit/skeleton",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provide a placeholder while you wait for content to load, or to visualise content that doesn't exist yet.",
   "main": "index.js",
   "types": "index.d.ts",
