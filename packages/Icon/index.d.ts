@@ -1,7 +1,7 @@
 declare module '@rn-components-kit/icon' {
 
-  import {SFC} from 'react';
-  import React, {ViewStyle} from 'react-native'
+  import * as React from 'react';
+  import {ViewStyle} from 'react-native'
 
   interface Props {
 
@@ -606,5 +606,5 @@ declare module '@rn-components-kit/icon' {
     );
   }
 
-  export const Icon: SFC<Props>;
+  export const Icon: React.SFC<Props>;
 }

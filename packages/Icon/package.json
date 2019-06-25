@@ -1,6 +1,6 @@
 {
   "name": "@rn-components-kit/icon",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Semantic vector graphics.",
   "main": "index.js",
   "types": "index.d.ts",
