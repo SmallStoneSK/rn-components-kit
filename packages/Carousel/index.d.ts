@@ -1,6 +1,6 @@
 declare module '@rn-components-kit/carousel' {
 
-  import React from 'react';
+  import * as React from 'react';
   import {ViewStyle} from 'react-native'
 
   interface Props {
