@@ -16,6 +16,7 @@ import * as IconDemos from '../packages/Icon/demos/index';
 import * as SpinDemos from '../packages/Spin/demos/index';
 import * as BadgeDemos from '../packages/Badge/demos/index';
 import * as RadioDemos from '../packages/Radio/demos/index';
+import * as ButtonDemos from '../packages/Button/demos/index';
 import * as RatingDemos from '../packages/Rating/demos/index';
 import * as SliderDemos from '../packages/Slider/demos/index';
 import * as SwitchDemos from '../packages/Switch/demos/index';
@@ -40,6 +41,18 @@ const APP_DATA = [
       {title: 'Number Within Dot Style', component: BadgeDemos.Demo2},
       {title: 'Customize Color', component: BadgeDemos.Demo3},
       {title: 'Friendly Animation', component: BadgeDemos.Demo4},
+    ]
+  },
+  {
+    title: 'Button',
+    demos: [
+      {title: 'Button Types', component: ButtonDemos.Demo1},
+      {title: 'Button Sizes', component: ButtonDemos.Demo2},
+      {title: 'Button Shapes', component: ButtonDemos.Demo3},
+      {title: 'Icon Buttons', component: ButtonDemos.Demo4},
+      {title: 'Block Buttons', component: ButtonDemos.Demo5},
+      {title: 'Link Buttons', component: ButtonDemos.Demo6},
+      {title: 'Outline Buttons', component: ButtonDemos.Demo7},
     ]
   },
   {

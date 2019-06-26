@@ -9,6 +9,7 @@
 <div>
   <img width="200" heihgt="390" src="./screenshots/app.png"/>
   <img width="200" heihgt="390" src="./screenshots/badge.png"/>
+  <img width="200" heihgt="390" src="./screenshots/button.png"/>
   <img width="200" heihgt="390" src="./screenshots/carousel.png"/>
   <img width="200" heihgt="390" src="./screenshots/checkbox.png"/>
   <img width="200" heihgt="390" src="./screenshots/deck-swiper.png"/>
@@ -32,6 +33,7 @@
 |组件|版本|
 |---------|-------|
 |[badge](https://github.com/SmallStoneSK/rn-components-kit/tree/master/packages/Badge/README.zh-CN.md)|[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/badge.svg)](https://www.npmjs.com/package/@rn-components-kit/badge)|
+|[button](https://github.com/SmallStoneSK/rn-components-kit/tree/master/packages/Button/README.zh-CN.md)|[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/button.svg)](https://www.npmjs.com/package/@rn-components-kit/button)|
 |[carousel](https://github.com/SmallStoneSK/rn-components-kit/tree/master/packages/Carousel/README.zh-CN.md)|[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/carousel.svg)](https://www.npmjs.com/package/@rn-components-kit/carousel)|
 |[checkbox](https://github.com/SmallStoneSK/rn-components-kit/tree/master/packages/CheckBox/README.zh-CN.md)|[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/checkbox.svg)](https://www.npmjs.com/package/@rn-components-kit/checkbox)|
 |[deck-swiper](https://github.com/SmallStoneSK/rn-components-kit/tree/master/packages/DeckSwiper/README.zh-CN.md)|[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/deck-swiper.svg)](https://www.npmjs.com/package/@rn-components-kit/deck-swiper)|

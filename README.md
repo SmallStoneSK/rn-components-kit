@@ -9,6 +9,7 @@ A series of commonly used react-native components.
 <div>
   <img width="200" heihgt="390" src="./screenshots/app.png"/>
   <img width="200" heihgt="390" src="./screenshots/badge.png"/>
+  <img width="200" heihgt="390" src="./screenshots/button.png"/>
   <img width="200" heihgt="390" src="./screenshots/carousel.png"/>
   <img width="200" heihgt="390" src="./screenshots/checkbox.png"/>
   <img width="200" heihgt="390" src="./screenshots/deck-swiper.png"/>
@@ -32,6 +33,7 @@ A series of commonly used react-native components.
 |component|version|
 |---------|-------|
 |[badge](https://github.com/SmallStoneSK/rn-components-kit/tree/master/packages/Badge)|[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/badge.svg)](https://www.npmjs.com/package/@rn-components-kit/badge)|
+|[button](https://github.com/SmallStoneSK/rn-components-kit/tree/master/packages/Button)|[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/button.svg)](https://www.npmjs.com/package/@rn-components-kit/button)|
 |[carousel](https://github.com/SmallStoneSK/rn-components-kit/tree/master/packages/Carousel)|[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/carousel.svg)](https://www.npmjs.com/package/@rn-components-kit/carousel)|
 |[checkbox](https://github.com/SmallStoneSK/rn-components-kit/tree/master/packages/CheckBox)|[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/checkbox.svg)](https://www.npmjs.com/package/@rn-components-kit/checkbox)|
 |[deck-swiper](https://github.com/SmallStoneSK/rn-components-kit/tree/master/packages/DeckSwiper)|[![NPM version](https://img.shields.io/npm/v/@rn-components-kit/deck-swiper.svg)](https://www.npmjs.com/package/@rn-components-kit/deck-swiper)|
