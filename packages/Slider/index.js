@@ -19,7 +19,7 @@ export class Slider extends React.PureComponent {
     vertical: false,
     trackColor: '#DDD',
     selectedTrackColor: '#40A9FF',
-    showTip: true,
+    showTip: 'onTap',
     tipFormatter: val => val,
     onValueChange: () => {},
     onBeginSliding: () => {},
@@ -220,14 +220,18 @@ export class Slider extends React.PureComponent {
 
   renderTips() {
 
-    if(!this.props.showTip) {
+    const {isDraggingThumb1, isDraggingThumb2} = this.state;
+    if(
+      this.props.showTip === 'never' ||
+      (this.props.showTip === 'onTap' && !isDraggingThumb1 && !isDraggingThumb2)
+    ) {
       return null;
     }
 
     const {vertical, tipFormatter, tipContainerStyle, tipTextStyle} = this.props;
     return [1, 2].map(num => {
       const value = this.state[`value${num}`];
-      return this.state[`isDraggingThumb${num}`] && (
+      return value !== Infinity && (
         <View key={num} style={[{position: 'absolute', bottom: 0}, vertical && {alignSelf: 'center'}]}>
           <View style={[
             styles.tipContainer,

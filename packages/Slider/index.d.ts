@@ -29,6 +29,11 @@ declare module '@rn-components-kit/slider' {
     step?: number;
 
     /**
+     * The initial value when first render slider
+     */
+    defaultValue: number | number[];
+
+    /**
      * Determines whether one or two thumbs in slider
      * default: false
      */
@@ -41,10 +46,10 @@ declare module '@rn-components-kit/slider' {
     vertical?: boolean;
 
     /**
-     * Determines whether tooltip is shown when dragging the thumb
+     * Determines whether tooltip is shown
      * default: true
      */
-    showTip?: false;
+    showTip?: 'never' | 'onTap' | 'always';
 
     /**
      * Allows you to customize tip's container style (e.g. size, backgroundColor)

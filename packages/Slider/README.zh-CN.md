@@ -30,6 +30,7 @@ npm install @rn-components-kit/slider --save
 - [`min`](#min)
 - [`max`](#max)
 - [`step`](#step)
+- [`defaultValue`](#defaultValue)
 - [`multi`](#multi)
 - [`vertical`](#vertical)
 - [`showTip`](#showTip)
@@ -80,6 +81,14 @@ npm install @rn-components-kit/slider --save
 |----|--------|-------|
 |number|否|1|
 
+#### `defaultValue`
+
+初次渲染滑块时的值
+
+|类型|必填|默认值|
+|----|--------|-------|
+|number \| number[]|否|-|
+
 #### `multi`
 
 false时，只有一个滑块；true时，有两个滑块
@@ -102,7 +111,7 @@ false时，只有一个滑块；true时，有两个滑块
 
 |类型|必填|默认值|
 |----|--------|-------|
-|boolean|否|false|
+|枚举值(`'never'`, `'onTap'`, `'always'`)|否|false|
 
 #### `tipContainerStyle`
 

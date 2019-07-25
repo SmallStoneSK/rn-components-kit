@@ -30,6 +30,7 @@ npm install @rn-components-kit/slider --save
 - [`min`](#min)
 - [`max`](#max)
 - [`step`](#step)
+- [`defaultValue`](#defaultValue)
 - [`multi`](#multi)
 - [`vertical`](#vertical)
 - [`showTip`](#showTip)
@@ -80,6 +81,14 @@ The granularity the slider can step through values. (Must greater than 0, and be
 |----|--------|-------|
 |number|no|1|
 
+#### `defaultValue`
+
+The initial value when first render slider
+
+|Type|Required|Default|
+|----|--------|-------|
+|number \| number[]|no|-|
+
 #### `multi`
 
 Determines whether one or two thumbs in slider
@@ -98,11 +107,11 @@ Determines whether slider is horizontal or vertical
 
 #### `showTip`
 
-Determines whether tooltip is shown when dragging the thumb
+Determines whether tooltip is shown
 
 |Type|Required|Default|
 |----|--------|-------|
-|boolean|no|false|
+|enum(`'never'`, `'onTap'`, `'always'`)|no|false|
 
 #### `tipContainerStyle`
 
