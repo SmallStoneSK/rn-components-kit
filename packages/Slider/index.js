@@ -228,7 +228,7 @@ export class Slider extends React.PureComponent {
       return null;
     }
 
-    const {vertical, tipFormatter, tipContainerStyle, tipTextStyle} = this.props;
+    const {min, vertical, tipFormatter, tipContainerStyle, tipTextStyle} = this.props;
     return [1, 2].map(num => {
       const value = this.state[`value${num}`];
       return value !== Infinity && (
@@ -239,12 +239,12 @@ export class Slider extends React.PureComponent {
             vertical ? {
               flexWrap: 'nowrap',
               transform: [
-                {translateY: -this.val2Pos(value) -this.thumbRadius - 5}
+                {translateY: -this.val2Pos(value - min) -this.thumbRadius - 5}
               ]
             } : {
               left: '-50%',
               transform: [
-                {translateX: this.val2Pos(value)},
+                {translateX: this.val2Pos(value - min)},
                 {translateY: -this.thumbRadius * 2 - 5}
               ]
             }
