@@ -261,8 +261,8 @@ export class Slider extends React.PureComponent {
     return (
       <View style={[style, styles.container]} onLayout={this.onLayout}>
         {this.renderTracks()}
-        {this.renderThumbs()}
         {this.renderTips()}
+        {this.renderThumbs()}
       </View>
     );
   }
