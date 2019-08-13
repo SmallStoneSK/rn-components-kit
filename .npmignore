@@ -1,0 +1,13 @@
+ios/
+android/
+example/
+node_modules/
+screenshots/
+
+.*
+
+app.json
+babel.config.js
+index.js
+LICENSE
+metro.config.js
