@@ -14,41 +14,29 @@
 npm install rn-components-kit --save
 ```
 
-如果你只想单独安装`rn-components-kit`中的某个子包时，你也可以这样安装：
+```js
+import React from 'react';
+import {Badge} from ' @rn-components-kit/badge';
 
-```bash
-npm install @rn-components-kit/xxx --save
+const TestComponent = () => <Badge/>;
 ```
 
 ### 按需加载
 
-有两种方式可以按需加载。
-
-如果你是通过`npm install @rn-components-kit/xxx --save`这种方式安装的包，那么它只会加载`xxx`组件。例如：
+上述的方法将会把所有的组件打入进`bundle`内，即使你没有用到所有的组件。如果你想减少包大小，你可以这样引入：
 
 ```bash
 npm install @rn-components-kit/badge --save
 ```
 
 ```js
-import {Badge} from '@rn-components-kit/badge'
+import React from 'react';
+import {Badge} from ' @rn-components-kit/badge';
+
+const TestComponent = () => <Badge/>;
 ```
 
-但是如果你安装了整个组件库，下面的代码将会把所有的组件代码打进`bundle`（即使你没有用到所有的组件）:
-
-```bash
-npm install rn-components-kit --save
-```
-
-```js
-import {Badge} from 'rn-components-kit';
-```
-
-如果你想减少`bundle`大小，你可以这样引入组件：
-
-```js
-import {Badge} from 'rn-components-kit/package/Badge';
-```
+事实上，我们也推荐你使用这种方式引入组件。
 
 ### 运行示例
 

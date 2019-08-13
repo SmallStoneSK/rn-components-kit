@@ -14,41 +14,29 @@ You can install `rn-components-kit` by following:
 npm install rn-components-kit --save
 ```
 
-If you want to install only one package of `rn-components-kit`, you can also do following:
+```js
+import React from 'react';
+import {Badge} from ' @rn-components-kit/badge';
 
-```bash
-npm install @rn-components-kit/xxx --save
+const TestComponent = () => <Badge/>;
 ```
 
 ### Import On Demand
 
-There are two kinds of method to import component on demand.
-
-If you install package by `npm install @rn-components-kit/xxx --save`, it will only import the `xxx` component. For example:
+The above usage would import whole components into bundle even if you have not use all of them. However, if you want to import component on demand, you can do like following:
 
 ```bash
 npm install @rn-components-kit/badge --save
 ```
 
 ```js
+import React from 'react';
 import {Badge} from ' @rn-components-kit/badge';
+
+const TestComponent = () => <Badge/>;
 ```
 
-However, if you install the whole packge, the following code will import all components even if you don't use all of them:
-
-```bash
-npm install rn-components-kit --save
-```
-
-```js
-import {Badge} from 'rn-components-kit';
-```
-
-If you want to reduce bundle size, you should import like this:
-
-```js
-import {Badge} from 'rn-components-kit/package/Badge';
-```
+In fact, we recommend you to adopt this usage.
 
 ### Running Examples
 
