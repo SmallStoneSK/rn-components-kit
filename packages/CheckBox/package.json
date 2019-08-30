@@ -1,6 +1,6 @@
 {
   "name": "@rn-components-kit/checkbox",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Allow users to complete tasks that involve making choices such as selecting options, or switching settings on or off",
   "main": "index.js",
   "types": "index.d.ts",

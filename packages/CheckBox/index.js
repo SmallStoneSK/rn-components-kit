@@ -47,13 +47,13 @@ export class CheckBox extends React.PureComponent {
     this.sizeAnimatedValue = new Animated.Value(checked ? 1 : 0);
     this.checkedStyle = {
       ...StyleSheet.absoluteFillObject,
-      opacity: this.opacityAnimatedValue.interpolate({inputRange: [0, 1], outputRange: [isSize ? 1 : 0, 1]}),
-      transform: [{scale: this.sizeAnimatedValue.interpolate({inputRange: [0, 1], outputRange: [isOpacity ? 1 : 0, 1]})}]
+      opacity: this.opacityAnimatedValue.interpolate({inputRange: [0, 1], outputRange: [isSize ? 1 : 0.01, 1], extrapolate: 'clamp'}),
+      transform: [{scale: this.sizeAnimatedValue.interpolate({inputRange: [0, 1], outputRange: [isOpacity ? 1 : 0.01, 1], extrapolate: 'clamp'})}]
     };
     this.unCheckedStyle = {
       ...StyleSheet.absoluteFillObject,
-      opacity: this.opacityAnimatedValue.interpolate({inputRange: [0, 1], outputRange: [1, isSize ? 1 : 0]}),
-      transform: [{scale: this.sizeAnimatedValue.interpolate({inputRange: [0, 1], outputRange: [1, isOpacity ? 1 : 0]})}]
+      opacity: this.opacityAnimatedValue.interpolate({inputRange: [0, 1], outputRange: [1, isSize ? 1 : 0.01], extrapolate: 'clamp'}),
+      transform: [{scale: this.sizeAnimatedValue.interpolate({inputRange: [0, 1], outputRange: [1, isOpacity ? 1 : 0.01], extrapolate: 'clamp'})}]
     };
   }
 
