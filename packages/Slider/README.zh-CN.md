@@ -11,7 +11,7 @@
 - 滑块和轨道样式高度可定制化
 - tip文案可定制化
 
-## How to use
+## 使用
 
 ```bash
 npm install @rn-components-kit/slider --save

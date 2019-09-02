@@ -1,7 +1,7 @@
 declare module '@rn-components-kit/checkbox' {
 
   import * as React from 'react';
-  import {ViewStyle, TextStyle, ImageRequireSource} from 'react-native'
+  import {ViewStyle, TextStyle, ImageRequireSource} from 'react-native';
 
   interface Props {
 

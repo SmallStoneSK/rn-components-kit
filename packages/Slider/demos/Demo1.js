@@ -9,7 +9,6 @@ import {Slider} from '../index';
 
 export class Demo1 extends React.PureComponent {
 
-
   onBeginSliding = () => {
     const {getSvRef} = this.props;
     const svRef = getSvRef();

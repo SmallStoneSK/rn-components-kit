@@ -40,7 +40,6 @@ npm install @rn-components-kit/badge --save
 - [`offsetX`](#offsetX)
 - [`offsetY`](#offsetY)
 
-
 ## 文档
 
 ### Props

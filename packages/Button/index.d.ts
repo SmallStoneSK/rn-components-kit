@@ -1,7 +1,7 @@
 declare module '@rn-components-kit/button' {
 
   import * as React from 'react';
-  import {ViewStyle, TouchableOpacityProps} from 'react-native'
+  import {ViewStyle, TouchableOpacityProps} from 'react-native';
 
   interface Props {
 

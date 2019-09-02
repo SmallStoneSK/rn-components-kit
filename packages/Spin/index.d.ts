@@ -1,7 +1,7 @@
 declare module '@rn-components-kit/spin' {
 
   import * as React from 'react';
-  import {ViewStyle} from 'react-native'
+  import {ViewStyle} from 'react-native';
 
   interface BaseSpinProps {
 

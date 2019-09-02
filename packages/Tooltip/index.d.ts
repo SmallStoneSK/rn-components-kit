@@ -1,7 +1,7 @@
 declare module '@rn-components-kit/tooltip' {
 
   import * as React from 'react';
-  import {TextStyle, ViewStyle} from 'react-native'
+  import {TextStyle, ViewStyle} from 'react-native';
 
   interface Props {
 
