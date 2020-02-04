@@ -20,6 +20,7 @@
   "dependencies": {
     "@rn-components-kit/icon": "^1.0.2",
     "@rn-components-kit/text": "^1.0.0",
-    "react-native-linear-gradient": "^2.5.4"
+    "react-native-linear-gradient": "^2.5.4",
+    "@react-native-community/art": "^1.1.2"
   }
 }

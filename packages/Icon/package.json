@@ -16,5 +16,8 @@
     "icon"
   ],
   "author": "SmallStoneSK",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@react-native-community/art": "^1.1.2"
+  }
 }

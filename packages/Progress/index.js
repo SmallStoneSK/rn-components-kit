@@ -1,7 +1,6 @@
 import React from 'react';
 
 import {
-  ART,
   View,
   Easing,
   Animated,
@@ -16,7 +15,8 @@ const COLORS = {
   success: '#52C41A',
   fail: '#F5222D'
 };
-const {Surface, Shape, Path} = ART;
+
+import {Surface, Shape, Path} from '@react-native-community/art';
 
 export class Progress extends React.PureComponent {
 

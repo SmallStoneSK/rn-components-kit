@@ -1,12 +1,8 @@
 import * as React from 'react';
 
-import {
-  ART
-} from 'react-native';
-
 import ICONS from './Icons.json';
 
-const {Surface, Shape} = ART;
+import {Surface, Shape} from '@react-native-community/art';
 
 export const Icon = (props = {}) => {
 
