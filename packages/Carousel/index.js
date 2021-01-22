@@ -55,8 +55,8 @@ export class Carousel extends React.PureComponent {
 
   componentWillReceiveProps(nextProps) {
 
-    // when data changes, children should be re-generated
-    if(nextProps.data !== this.props.data) {
+    // when data or children changes, children should be re-generated
+    if(nextProps.data !== this.props.data || nextProps.children !== this.props.children) {
       this.setState({children: Helper.makeChildren(nextProps)});
     }
 
